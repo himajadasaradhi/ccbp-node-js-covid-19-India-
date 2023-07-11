@@ -5,7 +5,7 @@ GET http://localhost:3000/states/8/
 ###
 
 POST http://localhost:3000/districts/ 
-Content-Type:"application/json"
+Content-Type:application/json
 
 {
   "districtName": "Bagalkot",
@@ -24,7 +24,7 @@ DELETE http://localhost:3000/districts/300/
 ### 
 
 PUT http://localhost:3000/districts/321/ 
-Content-Type:"application/json"
+Content-Type:application/json
 
 {
   "districtName": "Nadia",
